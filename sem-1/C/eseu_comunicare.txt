@@ -1,0 +1,4 @@
+Creați un repository public pe GitHub numit faculty care să conțină un fișier README.md
+Clonați local repository-ul faculty
+În interiorul repo-ului creați un folder pentru anul în care sunteți, sub forma first-year sau second-year sau third-year, etc. 
+Să zicem că sunteți anul 1 și creați un folder numit first-year, în acest folder creați un fișier README.md
