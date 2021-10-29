@@ -1,0 +1,53 @@
+table{
+    font-family: Oxygen, sans-serif;
+    background-color: #fefefeff;
+    padding: 2%;
+    max-width: 1200px;
+    min-width: 900px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 40px;
+    font-family: Oxygen, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    border-width: 0;
+    background: #C200FB;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ffc948;
+    cursor: pointer;
+}
+
+#cancel{
+    border-style: solid;
+    border-color: #C200FB;
+    background: white;
+    color: #171717;
+}
+
+#cancel:hover{
+    color: #C200FB;
+    border-color: #ffc948;
+}
+.custom-sel{
+    font-family: Oxygen;
+
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    background-color: #C200FB;
+    color: #B7FDFE;
+    border-width: 0;
+    transition: 0.3s;
+}
+
+.custom-sel:hover{
+    background: #ffc948;
+}
+

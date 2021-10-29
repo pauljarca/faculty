@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Sondaj șampon
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="styleform.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="mailto:server@yahoo.ro" method="post">
+    <table>
+        <caption><h1>Sondaj cu privire la șamponul utilizat de dumneavoastră</h1></caption>
+        <tr>
+            <td colspan="1">Ce sampon folositi in mod regulat?</td>
+        </tr>
+        <td>
+            <input name="sampon" type="radio" value="Pantene" checked> Pantene<br>
+            <input name="sampon" type="radio" value="Elseve"> Elseve<br>
+            <input name="sampon" type="radio" value="Dove"> Dove<br>
+            <input name="sampon" type="radio" value="Londa"> Londa<br>
+            <input name="sampon" type="radio" value="Wella"> Wella<br>
+        </td>
+        <tr>
+            <td colspan="2">
+                <br>
+                Ce va determina sa cumparati acest sampon?
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="2">
+                <input type="checkbox" name="prețul" checked> Prețul
+                <input type="checkbox" name="reclama"> Reclama
+                <input type="checkbox" name="ambalajul"> Ambalajul
+                <input type="checkbox" name="marca"> Marca
+                <input type="checkbox" name="disponibilitate"> Disponibilitatea produsului
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <br>
+                 Ce apreciati cel mai mult la samponul pe care il cumparati?
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="2">
+                <input type="radio" name="apreciere" checked> Mirosul
+                <input type="radio" name="apreciere"> Calitatea
+                <input type="radio" name="apreciere"> Timpul de efect
+            </td>
+        </tr>
+        <tr>
+            <td><br>Cat de frecvent folositi samponul?</td>
+            <td>
+                <select class="custom-sel" name="varsta">
+                    <option value="1">O data pe saptamana</option>
+                    <option value="2">De doua ori pe saptamana</option>
+                    <option value="3" selected>De trei ori pe saptamana</option>
+                    <option value="4">O data la doua saptamani</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><br>În ce categorie de vârstă vă încadrați?</td>
+            <td>
+                <select class="custom-sel" name="varsta">
+                    <option value="categorie1">sub 18 ani</option>
+                    <option value="categorie2">18 - 30 ani</option>
+                    <option value="categorie3" selected>30 - 50 ani</option>
+                    <option value="categorie4">peste 50 ani</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><br>
+                Exprimati mai jos cateva opinii personale cu privire la marca de sampon utilizata:
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="opinii" cols="40" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><br>
+                <input class="btn" type="submit" value="Trimite"></td>
+            <td><input class="btn" id="cancel" type="reset" value="Anulare"></td>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
